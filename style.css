@@ -5,6 +5,9 @@
      box-sizing: border-box;
      font-family: 'Poppins', sans-serif;
  }
+ body {
+    overflow-x: hidden;
+ }
 
  /* Navigation bar */
  header {
@@ -611,6 +614,11 @@
 
 
  @media screen and (max-width: 1000px) {
+
+    body, html{
+        width: 100vw;
+        overflow-x: hidden;
+    }
      .hosting-showcase {
          display: flex;
          flex-direction: column;
